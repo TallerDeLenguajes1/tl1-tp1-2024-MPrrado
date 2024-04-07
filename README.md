@@ -1,2 +1,4 @@
 # TRABAJO PRACTICO N°1 TALLER DE LENGUAJES I
 
+## Archivo .gitignore
+
