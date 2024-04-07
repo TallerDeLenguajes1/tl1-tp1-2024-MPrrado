@@ -32,7 +32,7 @@ Este es un ejemplo de cómo se vería un archivo .gitignore:
 
     # Ignorar archivos de configuración SASS
     .sass-cache
-### Por qué es conveniente agregarlo al repositorio?📝
+### Por qué es conveniente agregarlo al repositorio📝
 
 El archivo _.gitignore_ es esencial en Git porque:
 -   Evita que archivos no deseados se incluyan en el repositorio, como archivos temporales o de compilación (caso del tp1_1.cpp de este repositorio).
