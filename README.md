@@ -1,5 +1,7 @@
 # TRABAJO PRACTICO N°1 TALLER DE LENGUAJES I
 
+##  Apartado 2, parte 2
+
 ## Archivo .gitignore🚫
 
 El archivo **.gitignore** es un archivo de texto que le dice a Git qué otros archivos y carpetas de un proyecto debe ignorar.
