@@ -41,3 +41,9 @@ El archivo _.gitignore_ es esencial en Git porque:
 -   Mantiene el repositorio ordenado y enfocado en los archivos relevantes para el proyecto.
 -   Mejora la seguridad al evitar la inclusión de información confidencial, como claves de API.
 
+
+## Apartado 3 g), parte 2:
+
+En el apartado 3 e) podemos notar que cuando se ejecuta el programa en el punto 2) obtenemos el contenido de un puntero y en el punto 3) obtenemos la direccion de memoria de la variable las cuales coinciden pues, cuando se crea una variable del tipo puntero esta almacena como valor la direccion de memoria de una variable del mismo tipo como en el caso de nuestro programa en el cual declaramos una variable tipo _int_ del tipo _puntero_ la cual apunte a la varible del mismo tipo _int_.
+En el punto 4) de este mismo apartado lo que obtenemos es la direccion de memoria de la variable del tipo _int_ puntero, la cual claramente no coincide con los demas resultados pues lo que obtenemos en este punto es la direccion donde esta almacenada la variable puntero, mientras que en los otros casos obtenemos la direccion de donde esta almacenada la variable del tipo _int_ solamente.
+
