@@ -13,3 +13,27 @@ Las entradas en este archivo también pueden seguir un modelo similar a:
 - "*" se usa para encontrar coincidencias.
 - "/" se usa para ignorar nombres de ruta relacionados con el archivo .gitignore
 - "#" se usa para añadir comentarios al archivo .gitignore
+
+Este es un ejemplo de cómo se vería un archivo .gitignore:
+
+    # Ignorar archivos del sistema de Mac
+    .DS_store
+
+    # Ignorar carpeta node_modules
+    node_modules
+
+    # Ignorar todos los archivos de texto
+    *.txt
+
+    # Ignorar archivos relacionados con claves de una API
+    .env
+
+    # Ignorar archivos de configuración SASS
+    .sass-cache
+### Por qué es conveniente agregarlo al repositorio?
+
+El archivo _.gitignore_ es esencial en Git porque:
+-   Evita que archivos no deseados se incluyan en el repositorio, como archivos temporales o de compilación (caso del tp1_1.cpp de este repositorio).
+-   Mantiene el repositorio ordenado y enfocado en los archivos relevantes para el proyecto.
+-   Mejora la seguridad al evitar la inclusión de información confidencial, como claves de API.
+-   
